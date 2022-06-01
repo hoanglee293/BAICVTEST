@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUMMER and STORM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- header -->
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./assets/img/Group 321.png" alt="" srcset=""></a>
+            </div>
+            <nav class="navbar">
+                <a href="#">new arrivals</a>
+                <a href="#">limited edition</a>
+                <a href="#">baby</a>
+                <a href="#">kids</a>
+                <a href="#">SHOP THE LOOK</a>
+                <a href="#">women</a>
+                <a href="#">s&s home</a>
+                <a href="#">SALE</a>
+                <a href="#">gift card</a>
+                <div class="nav-mobile">
+                    <a href="" class="">favourite</a>
+                    <div><a href="">sign in</a> / <a href="">sign up</a></div>
+                </div>
+            </nav>
+            <div class="icons">
+                <img id="search" src="./assets/img/Group 190.png" alt="">
+                <a href="" id="heart"><img src="./assets/img/Heart.png" alt="" srcset=""></a>
+                <img id="bag" src="./assets/img/Group 107.png" alt="" srcset="">
+                <a href="#" id="user"><img src="./assets/img/Shape.png" alt=""></a>
+                <div class="menu-mobile" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- slider -->
+        <div class="slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/Mask Group 14.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/slide-2" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="slide-tittle">
+                <span>new summer</span>
+                <span>arrivals sale now</span>
+                <span><a href="#">shop now</a></span>
+            </div>
+
+        </div>
+
+
+        <!-- content -->
+        <div class="content">
+            <h2 class="content-title">discover more</h2>
+            <div class="content-box">
+                <div class="box">
+                    <div class="box-img">
+                        <a href="">
+                            <img src="./assets/img/654A79151.png" alt="" srcset="">
+                        </a>
+                        <a href="" class="icon-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="box-title">
+                        <a href="">
+                            <span>SHOP KIDS</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <a href="">
+                            <img src="./assets/img/654A1774.png" alt="" srcset="">
+                        </a>
+                        <a href="" class="icon-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="box-title">
+                        <a href=""><span>SHOP KIDS</span></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <a href="">
+                            <img src="./assets/img/654A50911_800x.png" alt="" srcset="">
+                        </a>
+                        <a href="" class="icon-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="box-title">
+                        <a href="">
+                            <span>SHOP KIDS</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- explore -->
+        <div class="explore">
+            <h2 class="explore-title">
+                explore
+            </h2>
+            <div class="explore-nav">
+                <a href="#" class="nav-item">new arrivals</a>
+                <a href="#" class="nav-item">baby</a>
+                <a href="#" class="nav-item">kids</a>
+                <a href="#" class="nav-item">women</a>
+                <a href="#" class="nav-item">shop the look</a>
+                <a href="#" class="nav-item">sale</a>
+                <a href="#" class="nav-item">S&S home</a>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="contact">
+            <nav class="contact-nav">
+                <a href="">about</a>
+                <a href="">CUSTOMER CARE</a>
+                <a href="">RETURNS</a>
+                <a href="">STOCKISTS</a>
+                <a href="">INSTAGRAM</a>
+                <a href="">newsletter</a>
+            </nav>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <img src="./assets/img/logofooter.png" alt="" srcset="">
+        </div>
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box" />
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+    </div>
+    <div class="box-cart" id="box-cart">
+        <div class="header-cart">
+            <h3>BAG (<span>0</span>)</h3>
+            <i class="fa-solid fa-xmark" id="close-cart"></i>
+        </div>
+        <div class="main-cart">
+        </div>
+    </div>
+    <div class="overlay"></div>
+
+
+
+    <!-- custom js file link -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
